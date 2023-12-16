@@ -9,8 +9,9 @@ Here I only provided the FiveK dataset resized into 480p resolution (including 8
 Image enhancement aims to improve the quality of images by adjusting their color and is widely used in professional digital photography. Deep learning-based 3 Dimensional LookUp-Table (3D LUT) of RGB color transformation has achieved promising performance in terms of speed and precision. However, the focus has mainly been on building an adaptive enhancer by only learning the global color adjusting weights from the image, which ignores the significant relationship between the intrinsic semantic information of the image and LUT that is relevant to photographers. In this paper, we propose the Cross Attention Network (CANet), a new framework that formulates image enhancement as a parallel learning process based on the image and LUT features. To better learn the adjustment weights for both global color and intrinsic semantics, we propose a cross attention architecture that connects low-level (color, edge and outline) and high-level (semantic) features of the image and color transform LUT features to generate appropriate adjustment weights. Meanwhile, we employ a LUT-Aware Module (LAM) to construct the channels and spatial attention for refining the LUT features. Since these modules have a more powerful representational capacity, they can better capture the intrinsic relationship between image semantics and LUT features. The extensive evaluations on standard benchmarks, including FiveK and HDR datasets, show that CANet achieves better performance compared to state-of-the-art methods.
 
 ## Framework
-<img src="figures/framework.jpg" width="1024px"/>
-![image](https://github.com/flyingbird93/CANet/assets/16755407/e9de400c-bf88-4f6d-b266-22bbcfd5ec56)
+![微信图片_20231216150209](https://github.com/flyingbird93/CANet/assets/16755407/662b7892-cb86-4c8d-8b48-5f9438a699c3)
+
+
 
 
 ## Usage
