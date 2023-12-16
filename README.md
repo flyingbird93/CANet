@@ -70,3 +70,6 @@ python3 utils/generate_identity_3DLUT.py -d 36
 }
 
 ```
+
+## Reference
+Thanks for the code: [3D LUT](https://github.com/HuiZeng/Image-Adaptive-3DLUT)
