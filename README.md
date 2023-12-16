@@ -10,6 +10,8 @@ Image enhancement aims to improve the quality of images by adjusting their color
 
 ## Framework
 <img src="figures/framework.jpg" width="1024px"/>
+![image](https://github.com/flyingbird93/CANet/assets/16755407/e9de400c-bf88-4f6d-b266-22bbcfd5ec56)
+
 
 ## Usage
 
