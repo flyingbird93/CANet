@@ -12,8 +12,6 @@ Image enhancement aims to improve the quality of images by adjusting their color
 ![微信图片_20231216150209](https://github.com/flyingbird93/CANet/assets/16755407/662b7892-cb86-4c8d-8b48-5f9438a699c3)
 
 
-
-
 ## Usage
 
 ### Requirements
@@ -40,6 +38,8 @@ combine_A = trilinear_(LUT,img) --> _, combine_A = trilinear_(LUT,img)
      python3 image_adaptive_lut_train_paired_with_cross_attention.py
 
 ### Evaluation
+we provide the best model of MIT FIVEK dataset.[pretrain model]()
+
 1. use python to generate and save the test images:
 
        python3 image_adaptive_lut_evaluation_with_cross_attention.py
