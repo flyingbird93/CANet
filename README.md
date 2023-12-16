@@ -38,7 +38,7 @@ combine_A = trilinear_(LUT,img) --> _, combine_A = trilinear_(LUT,img)
      python3 image_adaptive_lut_train_paired_with_cross_attention.py
 
 ### Evaluation
-we provide the best model of MIT FIVEK dataset.[pretrain model]()
+we provide the best model of MIT FIVEK dataset.[pretrain model](https://pan.baidu.com/s/1_cChj5afS0pxb39cCacEGA)密码1024
 
 1. use python to generate and save the test images:
 
